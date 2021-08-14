@@ -1,0 +1,21 @@
+Plan :
+    1. write test cases for the problem statements.
+    2. get the list of transactions as part of input data.
+    3. sort the list based on duplicate records except time.
+    4. create group of lists on the basis of duplicate record for easy calculation.
+    5. convert the list to dataframe of pandas to reduce complexity to O(n).
+    6. sort the list via time in ascending order.
+    7. write business logic.
+    8. validate test cases wrote in step 1.
+    9. check code comments and indentation.
+
+Checklist :
+    1. E2E code working.
+    2. Test cases passed.
+    3. Boundary test cases added.
+    4. code indentation.
+    5. code cleanup : remove commented block of code.
+    6. re-read code comment block.
+
+
+

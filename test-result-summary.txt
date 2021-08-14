@@ -1,0 +1,15 @@
+/Users/zabelesn/PycharmProjects/pythonProject/venv/bin/python "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --path test_txn.py
+Testing started at 02:47 ...
+Launching pytest with arguments test_txn.py --no-header --no-summary -q in /Users/zabelesn/PycharmProjects/pythonProject/src/tests
+
+============================= test session starts ==============================
+collecting ... collected 4 items
+
+test_txn.py::test_duplicate_txn PASSED                                   [ 25%]
+test_txn.py::test_duplicate_boundary_txn PASSED                          [ 50%]
+test_txn.py::test_no_duplicate_txn PASSED                                [ 75%]
+test_txn.py::test_only_listed_txn PASSED                                 [100%]
+
+============================== 4 passed in 0.64s ===============================
+
+Process finished with exit code 0
