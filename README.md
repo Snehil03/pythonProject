@@ -1,29 +1,32 @@
-# find duplicate transactions : python project
+# find_duplicate_transactions : python project
+Find all transactions that have the same sourceAccount, targetAccount, category, 
+amount, and the time difference between each consecutive transaction 
+is less than 1 minute.
 
-# create virtual environment and add the dependency mentioned below :
-
-# dependencies used to build project 
+## Dependencies used to build project 
+```
     python : 3.9
     pandas : 1.3.1
     numpy  : 1.21.1
-    pytest : 6.2.4
+    pytest : 6.2.4 
+```
 
-# install libraries mentioned in requirements.txt
-    pip3 install -r requirements.txt    
+### Clone git project :
+```
+git clone  https://github.com/Snehil03/pythonProject
+cd pythonProject
 
-# commands for setup venv
+```
+### Commands for setup venv
     activate : source venv/bin/activate
     deactivate : deactivate
 
-# make sure after libraries installed project should not have any compilation error 
+### Install libraries mentioned in requirements.txt after activate of venv
+    pip3 install -r requirements.txt    
 
-# quick reference guide : 
-    pandas : https://pandas.pydata.org/docs/reference/frame.html
-    numpy : https://numpy.org/doc/stable/user/basics.html
-    pip3 : https://pip.pypa.io/en/stable/
-
-
-## folder Structure
+### **Make sure after libraries installed and complied project should not have any compilation error 
+ 
+## Folder Structure
 
 After creation, your project should look like this:
 
@@ -41,6 +44,14 @@ After creation, your project should look like this:
 |   |       test_txn.py
 |   |
 ```
+
+#### Quick reference guide used to build function : 
+    pandas : https://pandas.pydata.org/docs/reference/frame.html
+    numpy : https://numpy.org/doc/stable/user/basics.html
+    pip3 : https://pip.pypa.io/en/stable/
+
+
+
     
 
 
